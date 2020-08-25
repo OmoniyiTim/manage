@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Be Vietnam;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+button{
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #f4603b;
+    outline: none;
+    transition: all .2s;
+}
+button:hover{
+    background-color: white;
+    color:  #f4603b; 
+    border: 1px solid  #f4603b;
+}
+p{
+    font-size: 17px;
+}
+
+/* ------------------------------HEADER----------------------------------- */
+header{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    background-color: white;
+
+}
+header .logo-container{
+    margin: 40px 0 0 100px;
+ 
+}
+
+nav ul {
+   display: flex;
+   margin: 40px 0 0 200px;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: hsl(233, 12%, 13%); 
+    transition: all .2s;
+}
+ ul li a:hover{
+ border-bottom: 2px solid #f4603b;
+ color:hsl(228, 39%, 23%);
+    
+}
+.hambuger {
+    top: 35px;
+    display: none;
+    position: relative;
+    left: -100px;
+}
+.hambuger img{
+    width: 53px;
+    height: 32px;
+}
+header .btn{
+    margin: 20px 0 0 200px;
+}
+
+
+
+/* --------------------------------- SECTION1 ----------------------------------------- */
+
+.row1{
+    display: flex;
+    margin-top: 80px;
+    padding-left: 100px;
+
+}
+.side1{
+  width: 40%;
+  padding-top: 60px;
+}
+.side1 h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.side1 p{
+ 
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.imageside{
+    width: 30%;
+}
+.imageside img{
+    height: 400px;
+    width: 500px;
+    margin-left: 200px;
+}
+
+
+
+/* -------------------------------SECTION2 --------------------------*/
+.row2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.row2 .row2-side1{
+    width: 30%;
+}
+
+.row2 .row2-side1 h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+
+.row2 .row2-side2{
+    width: 45%;
+}
+.row2 .row2-side2 h1{
+    font-size: 20px;
+    
+}
+.row2 .row2-side2 div{
+  margin-bottom: 20px;
+}
+.row2 .row2-side2 div .num{
+    background-color: #f4603b;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    position: relative;
+    right: 70px;
+    top: 23px;
+    text-align: center;
+
+}
+
+
+/* -------------------------------SECTION3 ----------------------*/
+section .said{
+    text-align: center;
+    font-size: 25px;
+    margin: 50px auto;
+}
+section .said h1{
+    font-size: 25px;
+}
+.review{
+    display: flex;
+   justify-content: space-between;
+    text-align: center;
+    
+}
+.review div{
+    width: 40%;
+}
+.testi-4{
+    display: none;
+}
+.review div img{
+    width: 100px;
+    height: 100px;
+}
+
+.review-btn{
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+/* --------------==-----------SECTION4-------------------------- */
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #f4603b;
+    margin-top: 20px;
+    padding: 50px 100px;
+    background-image: url(../images/bg-simplify-section-desktop.svg);
+    background-size: center center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: inherit;
+}
+
+.row4 .team h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 700px;
+}
+.row4 button{
+    background-color: white;
+    color: #f4603b;
+}
+
+/* -----------------------------FOOTER----------------------- */
+footer{
+    background-color: hsl(228, 39%, 23%);
+    height: 180px;
+    padding-left: 100px;
+    padding-top: 50px;
+  
+}
+.footer-child{
+    display: flex;
+}
+.footer-logo {
+    margin-bottom: 124px;
+    filter: invert(1);
+}
+.flist1{
+    margin-left: 110px;
+}
+.flist1 ul li {
+    list-style-type: none;
+    line-height: 30px;
+}
+.flist1 ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.flist2{
+    margin-left: 110px;
+}
+.flist2 ul li {
+    list-style-type: none;
+    line-height: 30px;
+}
+.flist2 ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.footer-form {
+    margin-left: 210px;
+
+}
+
+.footer-form input[type="text"]{
+    border: 1px solid transparent;
+    padding: 8px 20px;
+    border-radius: 20px;
+    outline: none;
+}
+.footer-form  a{
+  width: 20px;
+  background-color: #f4603b;
+  padding: 8px 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-form div h3{
+    margin-top: 120px;
+    color: #fff;
+}

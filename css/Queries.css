@@ -1,0 +1,343 @@
+@media only screen and (max-width:1200px){
+    header {
+        width: 1200px;
+    }
+    header .btn {
+        margin: 20px 0 0 158px;
+    }
+    nav ul {
+        display: flex;
+        margin: 40px 0 0 135px;
+    }
+    .imageside img {
+        margin-left: 159px;
+    }
+    .review {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding-left: 100px;
+    }
+    .imageside {
+        width: 20%;
+    }
+    .footer-form {
+        margin-left: 144px;
+    }
+}
+@media only screen and (max-width:1023px){
+    header {
+        width: 1023px;
+    }
+    header .logo-container {
+        margin: 40px 0 0 60px;
+    }
+    header .btn {
+        margin: 30px 0 0 103px;
+    }
+    .imageside img {
+        margin-left: 61px;
+    }
+    header .btn {
+        margin: 30px 0 0 37px;
+    }
+    .row1 {
+        padding-left: 60px;
+    }
+    .row2 {
+        padding-left: 60px;  
+    }
+    .row2 .row2-side2 div {
+        margin-left: 117px;
+        margin-bottom: 20px;
+    }
+    .row2 .row2-side2 {
+        width: 60%;
+    }
+    .review {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding-left: 60px;
+    }
+    .row4{
+        padding: 50px 60px;
+    }
+    footer {
+        padding-left: 60px;
+  
+    }
+    .flist2 {
+        margin-left: 146px;
+    }
+    .footer-form {
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width:768px){
+    header {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        display: block;
+        background-color: white;
+    }
+    header .btn{
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 35px;
+    }
+    nav ul li {
+        list-style-type: none;
+         margin-right: 0px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: hsl(233, 12%, 13%);
+        font-size: 24px;
+        line-height: 40px;
+    }
+    header .btn {
+        margin: 0 auto;
+        text-align: center;
+    }
+    nav  {
+        position: relative;
+        right: -9em;
+        width: 507px;
+        height: 194px;
+        background-color: #f4603b;
+    
+    }
+    nav{
+        display: none;
+    } 
+ 
+     .hambuger {
+        top: 2em;
+        display: block;
+        position: absolute;
+        left: 36em;
+    }
+    .row1 {
+        display: flex;
+        padding-left:0px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .imageside {
+        width: 77%;
+    }
+    .imageside img {
+        height: 350px;
+        width: 428px;
+        margin-left: 75px;
+    }
+    .side1 {
+        width: 66%;
+        padding-top: 60px;
+        text-align: center;
+    }
+    .row2 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+    .row2 .row2-side2 {
+        width: 65%;
+    }
+    
+    .row2 .row2-side1 {
+        width: 60%;
+        text-align: center;
+    }
+    .review {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .review div {
+        width: 40%;
+        margin-top: 30px;
+    }
+    .row4 {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f4603b;
+        margin-top: 20px;
+        text-align: center;
+        padding: 50px 100px;
+    
+    }
+    .team {
+        margin-bottom: 21px;
+    }
+ 
+    footer {
+        background-color: hsl(228, 39%, 23%);
+        height: 484px;
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .footer-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flist1,.flist2 {
+        margin-left: 0px;
+        text-align: center;
+        
+    }
+
+    .footer-form {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .footer-logo {
+        margin-bottom: 0px;
+        filter: invert(1);
+    }
+
+    .social-media {
+        position: relative;
+        top: 24em;
+        word-spacing: 97px;
+    }
+    .footer-logo {
+        margin-bottom: 0px;
+        filter: invert(1);
+        margin: 0 auto;
+        margin-left: 180px;
+    }
+
+
+}
+@media only screen and (max-width:420px){
+    header .logo-container {
+        margin: 40px 0 0 35px;
+    }
+    .hambuger {
+        top: 2em;
+        display: block;
+        position: absolute;
+        left: 18em;
+    }
+    .imageside {
+        width: 81%;
+    }
+    .imageside img {
+        height: 350px;
+        width: 372px;
+        margin-left: -9px;
+    }
+    .imageside img {
+        height: 286px;
+        width: 282px;
+        margin-left: 24px;
+    }
+    nav {
+        position: relative;
+        right: 0em;
+        width: 507px;
+        height: 194px;
+        background-color: #f4603b;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: hsl(233, 12%, 13%);
+        font-size: 24px;
+        line-height: 40px;
+        margin-right: 85px;
+    }
+    .side1 {
+        width: 82%;
+        padding-top: 18px;
+        text-align: center;
+    }
+    .row2 .row2-side1 {
+        width: 82%;
+        text-align: center;
+    }
+    .row2 .row2-side2 {
+        width: 96%;
+        text-align: center;
+        margin-right: 140px;
+        margin-top: 55px;
+    }
+    .row2 .row2-side2 div .num {
+        position: relative;
+        right: -117px;
+        top: -9px;
+   
+    }
+    section .said {
+        text-align: center;
+        font-size: 25px;
+        margin: 40px auto 0 auto;
+    }
+    .review div {
+        width: 82%;
+        margin-top: 30px;
+    }
+    .row4 {
+        padding: 55px 30px 66px 30px;
+    }
+    .footer-logo {
+        margin-left: 106px;
+    }
+   
+    .social-media {
+        position: relative;
+        top: 24em;
+        word-spacing: 60px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .imageside img {
+        height: 286px;
+        width: 282px;
+        margin-left: -4px;
+    }
+    .hambuger {
+        top: 2em;
+        display: block;
+        position: absolute;
+        left: 16em;
+    }
+    .row2 .row2-side2 div .num {
+        position: relative;
+        right: -76px;
+        top: -9px;
+    }
+    .social-media {
+        position: relative;
+        top: 24em;
+        word-spacing: 44px;
+    }
+    .footer-logo {
+        margin-left: 79px;
+    }
+    .attribution {
+        font-size: 10px;
+    }
+
+
+}
